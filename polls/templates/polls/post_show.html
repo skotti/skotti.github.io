@@ -1,0 +1,27 @@
+{% load staticfiles %}
+
+{% block content %}
+<head>
+
+<form action="" method = 'POST' >
+{% csrf_token %}
+    <label>
+        Заголовок:
+        <input type="text" name="title" value ="{{title_my}}">
+    </label>
+    <label>
+        Текст:
+        <textarea name="item" value = "{{item_my}}"></textarea>
+    </label>
+
+<input type="submit" class="button" value="send" />
+
+</form>
+
+
+{% for posts in user.blogpost_set.all %}
+	<li>{{posts.item}}</li>
+{% endfor %}
+
+{% endblock %}
+
