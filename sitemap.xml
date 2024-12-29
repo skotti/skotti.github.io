@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/axi/</loc>
+    <loc>https://skotti.github.io/tags/axi/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cache-coherence/</loc>
+    <loc>https://skotti.github.io/tags/cache-coherence/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-4/</loc>
+    <loc>https://skotti.github.io/posts/post-4/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://skotti.github.io/about/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dma/</loc>
+    <loc>https://skotti.github.io/tags/dma/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fpga/</loc>
+    <loc>https://skotti.github.io/tags/fpga/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-1/</loc>
+    <loc>https://skotti.github.io/posts/post-1/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-2/</loc>
+    <loc>https://skotti.github.io/posts/post-2/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/llvm/</loc>
+    <loc>https://skotti.github.io/tags/llvm/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pcie/</loc>
+    <loc>https://skotti.github.io/tags/pcie/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://skotti.github.io/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://skotti.github.io/posts/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/stream/</loc>
+    <loc>https://skotti.github.io/tags/stream/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-3/</loc>
+    <loc>https://skotti.github.io/posts/post-3/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://skotti.github.io/tags/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-5/</loc>
+    <loc>https://skotti.github.io/posts/post-5/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://skotti.github.io/categories/</loc>
   </url>
 </urlset>

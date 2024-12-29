@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Anastasiia Ruzhanskaia</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://skotti.github.io/posts/</link>
     <description>Recent content in Posts on Anastasiia Ruzhanskaia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
     <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://skotti.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complete list of supervised student&#39;s projects</title>
-      <link>http://localhost:1313/posts/post-4/</link>
+      <link>https://skotti.github.io/posts/post-4/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-4/</guid>
+      <guid>https://skotti.github.io/posts/post-4/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenCL support for Enzian&lt;/strong&gt; &lt;em&gt;with Fabian Wüthrich&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Enabled diverse development options on Enzian platform by adding support for OpenCL&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Asynchronous execution of Timely Dataflow on heterogeneous architecture&lt;/strong&gt; &lt;em&gt;with Neil Stern&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved performance of Timely Dataflow stream processor by allowing it to execute asynchronously on FPGAs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Code generation for heterogeneous architectures&lt;/strong&gt; &lt;em&gt;with Stefan Gerber, Livio D&amp;rsquo;Agostini, Tobias Grosser and Lana Josipovic&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Applied static scheduling techniques to the CIRCT infrastructure to isolate code groups, corresponding to the stream processing operators.&lt;/li&gt;&#xA;&lt;li&gt;introduced high-level group operation, that is further translated to hardware module.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Parallel execution of Timely Dataflow on heterogeneous architecture&lt;/strong&gt; &lt;em&gt;with Georg Teufelberger&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Heterogeneous stream processor</title>
-      <link>http://localhost:1313/posts/post-1/</link>
+      <link>https://skotti.github.io/posts/post-1/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-1/</guid>
+      <guid>https://skotti.github.io/posts/post-1/</guid>
       <description>&lt;p&gt;The core project was done in collaboration with two bachelor students:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Georg Teufelberger&lt;/em&gt; (Master Thesis, ETH Zurich) and &lt;em&gt;Neil Stern&lt;/em&gt; (Bachelor Thesis, ETH Zurich), who made great contribution to the project&amp;rsquo;s infrastructure!&lt;/p&gt;&#xA;&lt;p&gt;I am also grateful to &lt;em&gt;Andrea Lattuada&lt;/em&gt; for extremely helpful feedback and discussions about the functionality of Timely Dataflow.&lt;/p&gt;&#xA;&lt;p&gt;This project aims to expand possibilities of exisitng stream processors in heterogeneous environment:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What are the abstractions necessary to introduce heterogeneity inside a system?&lt;/li&gt;&#xA;&lt;li&gt;How can we enable different batch sizes and not loos performance?&lt;/li&gt;&#xA;&lt;li&gt;How do we distribute load?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;This project first tackles the problem of not supporting small batches in heterogeneous environment&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Interconnects competition</title>
-      <link>http://localhost:1313/posts/post-2/</link>
+      <link>https://skotti.github.io/posts/post-2/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-2/</guid>
-      <description>&lt;p&gt;During my PhD studies I contributed was part of the &lt;a href=&#34;https://arxiv.org/abs/2409.08141&#34;&gt;Enzian Research Project&lt;/a&gt;&#xA;where I:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;contributed to the &lt;a href=&#34;https://enzian.systems/assets/publications/enzian-asplos-2022.pdf&#34;&gt;&amp;ldquo;Enzian: An Open, General, CPU/FPGA Platform for Systems Software Research&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;was the author of &lt;a href=&#34;https://arxiv.org/abs/2409.08141&#34;&gt;Rethinking Programmed I/O for Fast Devices, Cheap Cores, and Coherent Interconnects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;presented a poster &lt;em&gt;Exploring cache-coherent interconnects with CCKit and Enzian&lt;/em&gt; at Symposium on Operating Systems Principles (SOSP, 2023)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;supervised several students, listed in the &lt;a href=&#34;http://localhost:1313/posts/post-4/&#34;&gt;Student projects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>https://skotti.github.io/posts/post-2/</guid>
+      <description>&lt;p&gt;During my PhD studies I contributed was part of the &lt;a href=&#34;https://arxiv.org/abs/2409.08141&#34;&gt;Enzian Research Project&lt;/a&gt;&#xA;where I:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;contributed to the &lt;a href=&#34;https://enzian.systems/assets/publications/enzian-asplos-2022.pdf&#34;&gt;&amp;ldquo;Enzian: An Open, General, CPU/FPGA Platform for Systems Software Research&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;was the author of &lt;a href=&#34;https://arxiv.org/abs/2409.08141&#34;&gt;Rethinking Programmed I/O for Fast Devices, Cheap Cores, and Coherent Interconnects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;presented a poster &lt;em&gt;Exploring cache-coherent interconnects with CCKit and Enzian&lt;/em&gt; at Symposium on Operating Systems Principles (SOSP, 2023)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;supervised several students, listed in the &lt;a href=&#34;https://skotti.github.io/posts/post-4/&#34;&gt;Student projects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>System Verilog code generation: inverse approach</title>
-      <link>http://localhost:1313/posts/post-3/</link>
+      <link>https://skotti.github.io/posts/post-3/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-3/</guid>
+      <guid>https://skotti.github.io/posts/post-3/</guid>
       <description>&lt;p&gt;Deriving System Verilog code generation enhancements in CIRCT project based on the analysis of&#xA;the hand written System Verilog code.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;to be completed&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Work at MIPT</title>
-      <link>http://localhost:1313/posts/post-5/</link>
+      <link>https://skotti.github.io/posts/post-5/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post-5/</guid>
+      <guid>https://skotti.github.io/posts/post-5/</guid>
       <description>&lt;p&gt;At MIPT, I was part of the Laboratory of Applied Computational Geophysics where I developed a way to model seismic response from facing fractures by using the Chimera grids approach.&#xA;The results were presented at multiple conferences, such as:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Modeling of fractures using the Chimera grid approach &lt;em&gt;Near Surface Geoscience Conference &amp;amp; Exhibition&lt;/em&gt; (Portugal, 2016)&lt;/li&gt;&#xA;&lt;li&gt;Usage of hierarchical grids in seismic computations &lt;em&gt;50 years of grid-characteristic method’s development&lt;/em&gt; (MIPT, 2018)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
