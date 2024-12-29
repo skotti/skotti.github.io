@@ -7,11 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
+    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/pcie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interconnects competition</title>
       <link>http://localhost:1313/posts/post-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post-2/</guid>
       <description>&lt;p&gt;During my PhD studies I contributed was part of the &lt;a href=&#34;https://arxiv.org/abs/2409.08141&#34;&gt;Enzian Research Project&lt;/a&gt;&#xA;where I:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;contributed to the &lt;a href=&#34;https://enzian.systems/assets/publications/enzian-asplos-2022.pdf&#34;&gt;&amp;ldquo;Enzian: An Open, General, CPU/FPGA Platform for Systems Software Research&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;was the author of &lt;a href=&#34;https://arxiv.org/abs/2409.08141&#34;&gt;Rethinking Programmed I/O for Fast Devices, Cheap Cores, and Coherent Interconnects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;presented a poster &lt;em&gt;Exploring cache-coherent interconnects with CCKit and Enzian&lt;/em&gt; at Symposium on Operating Systems Principles (SOSP, 2023)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;supervised several students, listed in the &lt;a href=&#34;http://localhost:1313/posts/post-4/&#34;&gt;Student projects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>

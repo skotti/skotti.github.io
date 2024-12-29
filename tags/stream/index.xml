@@ -7,11 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
+    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/stream/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Heterogeneous stream processor</title>
       <link>http://localhost:1313/posts/post-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post-1/</guid>
       <description>&lt;p&gt;The core project was done in collaboration with two bachelor students:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Georg Teufelberger&lt;/em&gt; (Master Thesis, ETH Zurich) and &lt;em&gt;Neil Stern&lt;/em&gt; (Bachelor Thesis, ETH Zurich), who made great contribution to the project&amp;rsquo;s infrastructure!&lt;/p&gt;&#xA;&lt;p&gt;I am also grateful to &lt;em&gt;Andrea Lattuada&lt;/em&gt; for extremely helpful feedback and discussions about the functionality of Timely Dataflow.&lt;/p&gt;&#xA;&lt;p&gt;This project aims to expand possibilities of exisitng stream processors in heterogeneous environment:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What are the abstractions necessary to introduce heterogeneity inside a system?&lt;/li&gt;&#xA;&lt;li&gt;How can we enable different batch sizes and not loos performance?&lt;/li&gt;&#xA;&lt;li&gt;How do we distribute load?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;This project first tackles the problem of not supporting small batches in heterogeneous environment&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
