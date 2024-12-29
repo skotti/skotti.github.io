@@ -1,1 +1,0 @@
-# skotti.github.io
