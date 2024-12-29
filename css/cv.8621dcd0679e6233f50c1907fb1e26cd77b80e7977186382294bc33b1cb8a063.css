@@ -1,0 +1,153 @@
+/* Backbone CSS for Resume Template 1 */
+
+/* Basic */
+
+.special body {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.special p,
+.special li,
+.special dl {
+    margin: 0;
+}
+
+/* Headings */
+
+.special h1,
+.special h2,
+.special h3 {
+    font-weight: bold;
+}
+
+.special h1 {
+    font-size: 2.13em;
+}
+
+.special h2 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.special h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.special h2 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+/* Lists */
+
+.special ul,
+.special ol {
+    padding-left: 1.5em;
+    margin: 0.2em 0;
+}
+
+/*.special ul {
+    list-style-type: circle;
+    padding-left: 1.5em;
+    /* Adjust spacing from the left 
+}*/
+
+.special ol {
+    list-style-type: decimal;
+}
+
+.special h2::before {
+    color: var(--maincolor);
+    content: '';
+}
+
+/*.special li {
+    list-style-type: circle;
+    padding-left: 1.5em;
+
+}*/
+
+/* Definition Lists */
+
+.special dl {
+    font-weight: bold;
+    display: flex;
+}
+
+.special dl dt,
+.special dl dd:not(:last-child) {
+    flex: 1;
+}
+
+/* Tex */
+
+:not(span.katex-display)>span.katex {
+    font-size: 1em !important;
+}
+
+/* SVG & Images */
+
+svg.iconify {
+    vertical-align: -0.2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+.special .resume-header {
+    text-align: center;
+}
+
+.special .resume-header h1 {
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.special .resume-header-item:not(.no-separator)::after {
+    content: " | ";
+}
+
+/* Citations */
+
+[data-scope="cross-ref"][data-part="definitions"] {
+    padding-left: 1.2em;
+}
+
+[data-scope="cross-ref"][data-part="definition"] p {
+    margin-left: 0.5em;
+}
+
+[data-scope="cross-ref"][data-part="definition"]::marker {
+    content: attr(data-label);
+}
+
+[data-scope="cross-ref"][data-part="reference"] {
+    font-size: 100%;
+    top: 0;
+}
+
+/* Dark & print mode */
+/* You might want to comment out the following lines if you change the background or text color. */
+
+.dark [data-scope="vue-smart-pages"][data-part="page"] {
+    background-color: hsl(213, 12%, 15%);
+    color: hsl(216, 12%, 84%);
+}
+
+@media print {
+    .dark [data-scope="vue-smart-pages"][data-part="page"] {
+        background-color: white;
+        color: black;
+    }
+}

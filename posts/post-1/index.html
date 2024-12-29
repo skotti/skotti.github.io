@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Heterogeneous stream processor - Anastasiia Ruzhanskaia</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		content="The core project was done in collaboration with two bachelor students:
+Georg Teufelberger (Master Thesis, ETH Zurich) and Neil Stern (Bachelor Thesis, ETH Zurich), who made great contribution to the project&rsquo;s infrastructure!
+I am also grateful to Andrea Lattuada for extremely helpful feedback and discussions about the functionality of Timely Dataflow.
+This project aims to expand possibilities of exisitng stream processors in heterogeneous environment:
+
+What are the abstractions necessary to introduce heterogeneity inside a system?
+How can we enable different batch sizes and not loos performance?
+How do we distribute load?
+
+This project first tackles the problem of not supporting small batches in heterogeneous environment" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="http://localhost:1313/posts/post-1/">
+  <meta property="og:site_name" content="Anastasiia Ruzhanskaia">
+  <meta property="og:title" content="Heterogeneous stream processor">
+  <meta property="og:description" content="The core project was done in collaboration with two bachelor students:
+Georg Teufelberger (Master Thesis, ETH Zurich) and Neil Stern (Bachelor Thesis, ETH Zurich), who made great contribution to the project’s infrastructure!
+I am also grateful to Andrea Lattuada for extremely helpful feedback and discussions about the functionality of Timely Dataflow.
+This project aims to expand possibilities of exisitng stream processors in heterogeneous environment:
+What are the abstractions necessary to introduce heterogeneity inside a system? How can we enable different batch sizes and not loos performance? How do we distribute load? This project first tackles the problem of not supporting small batches in heterogeneous environment">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-29T00:00:00+00:00">
+    <meta property="article:tag" content="Fpga">
+    <meta property="article:tag" content="Stream">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Heterogeneous stream processor">
+  <meta name="twitter:description" content="The core project was done in collaboration with two bachelor students:
+Georg Teufelberger (Master Thesis, ETH Zurich) and Neil Stern (Bachelor Thesis, ETH Zurich), who made great contribution to the project’s infrastructure!
+I am also grateful to Andrea Lattuada for extremely helpful feedback and discussions about the functionality of Timely Dataflow.
+This project aims to expand possibilities of exisitng stream processors in heterogeneous environment:
+What are the abstractions necessary to introduce heterogeneity inside a system? How can we enable different batch sizes and not loos performance? How do we distribute load? This project first tackles the problem of not supporting small batches in heterogeneous environment">
+<script src="http://localhost:1313/%20js/feather.min.js"></script>
+	
+	
+	<link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+	<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.d22e2a2879d933a4b781535fc4c4c716e9f9d35ea4986dd0cbabda82effc4bdd.css" media="(prefers-color-scheme: dark)"   />
+	
+
+	
+	
+
+	
+	
+</head><body>
+    <div class="content"><header>
+	
+	<link rel="stylesheet" href="http://localhost:1313/css/main.c7298937dae762fd23d7be3b66c4b57606ee82b255dd616488af47c4c21ca809.css">
+	<div class="main">
+		<a href="http://localhost:1313/">Anastasiia Ruzhanskaia</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">Projects</a>
+		
+		<a href="/about">CV</a>
+		
+		<a href="/tags">All tags</a>
+		
+		
+	</nav>
+
+</header>
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/main.c7298937dae762fd23d7be3b66c4b57606ee82b255dd616488af47c4c21ca809.css">
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Heterogeneous stream processor</h1>
+
+		</div>
+		
+
+		
+
+
+
+		<section class="body">
+			<p>The core project was done in collaboration with two bachelor students:</p>
+<p><em>Georg Teufelberger</em> (Master Thesis, ETH Zurich) and <em>Neil Stern</em> (Bachelor Thesis, ETH Zurich), who made great contribution to the project&rsquo;s infrastructure!</p>
+<p>I am also grateful to <em>Andrea Lattuada</em> for extremely helpful feedback and discussions about the functionality of Timely Dataflow.</p>
+<p>This project aims to expand possibilities of exisitng stream processors in heterogeneous environment:</p>
+<ol>
+<li>What are the abstractions necessary to introduce heterogeneity inside a system?</li>
+<li>How can we enable different batch sizes and not loos performance?</li>
+<li>How do we distribute load?</li>
+</ol>
+<p><strong>This project first tackles the problem of not supporting small batches in heterogeneous environment</strong></p>
+<p><a href="https://github.com/skotti/timely-mirror/">GitHub Timely Dataflow on FPGA</a> is the mirror of the project for Timely on FPGA.
+This version was tested only with Xilinx DMA subsystem IP or with Enzian cache coherent interconnect.</p>
+<p>There exists a separate version that was tested with an ealier Xilinx SDAccel toolchain for OpenCL-based offloading, but it is not
+publicly published.</p>
+<p>The repository contains branches with asynchronous mode, synchronous mode and different test graphs, and the currently supported branch <a href="https://github.com/skotti/timely-mirror/tree/timely_together"><code>timely_together</code></a> which is a synchronous mode for different data transfer sizes and single-threaded execution.</p>
+<p>The support for multi-threaded execution is coming soon!</p>
+<figure><img src="https://private-user-images.githubusercontent.com/8792989/393758272-96bf3c0a-4d3e-4919-9261-b20f3e477036.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU0NDcwMzYsIm5iZiI6MTczNTQ0NjczNiwicGF0aCI6Ii84NzkyOTg5LzM5Mzc1ODI3Mi05NmJmM2MwYS00ZDNlLTQ5MTktOTI2MS1iMjBmM2U0NzcwMzYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTIyOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDEyMjlUMDQzMjE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTNhZGYwZTk5ZDE0ZjJlMDU4ZTYxNTJiOGE3NDZkYzI0YzFkMzhjZjI3OTVmNDEyZGE4NGMzYjk4MWM3OTQ2ZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.4YIh_z-B9L6zATXy_7F-yB7QZIBXLreP58CXMLzIH4c"><figcaption>
+      <h4>Heterogneous environment</h4>
+    </figcaption>
+</figure>
+
+<p><a href="http://localhost:1313/posts/post-3/">Interconnect competition</a> and <a href="http://localhost:1313/posts/post-2/">Inverse problem</a> will address other parts of this diagram.</p>
+<p>The FPGA part of this project is not open source yet.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/%20/tags/fpga">fpga</a></li>
+					
+					<li><a href="/%20/tags/stream">stream</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/skotti" rel="me" title="GitHub"><img src="/github.svg" alt="GitHub icon" class="icon"></a>
+    <a class="border"></a><a class="soc" href="https://www.linkedin.com/in/anastasiia-ruzhanskaia-8b6627130/" rel="me" title="LinkedIn"><img src="/linkedin.svg" alt="LinkedIn icon" class="icon"></a>
+    <a class="border"></a><a class="soc" href="mailto:aruzhans@ethz.ch" rel="me" title="GMail"><img src="/mail.svg" alt="GMail icon" class="icon"></a>
+    <a class="border"></a></div>
+  Dec 29, 2024 Zurich, Switzerland
+
+</footer>
+<script>
+  feather.replace()
+</script></div>
+</body>
+
+</html>

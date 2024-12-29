@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llvm on Anastasiia Ruzhanskaia</title>
+    <link>http://localhost:1313/tags/llvm/</link>
+    <description>Recent content in Llvm on Anastasiia Ruzhanskaia</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <atom:link href="http://localhost:1313/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Verilog code generation: inverse approach</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>&lt;p&gt;Deriving System Verilog code generation enhancements in CIRCT project based on the analysis of&#xA;the hand written System Verilog code.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;to be completed&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

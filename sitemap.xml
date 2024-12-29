@@ -2,10 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/tags/axi/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:1313/tags/cache-coherence/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post-4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/dma/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/fpga/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/llvm/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pcie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/stream/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post-3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post-5/</loc>
   </url>
 </urlset>

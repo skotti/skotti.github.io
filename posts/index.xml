@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal website on Anastasiia Ruzhanskaia</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Personal website on Anastasiia Ruzhanskaia</description>
+    <title>Posts on Anastasiia Ruzhanskaia</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Anastasiia Ruzhanskaia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
     <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complete list of supervised student&#39;s projects</title>
       <link>http://localhost:1313/posts/post-4/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post-4/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenCL support for Enzian&lt;/strong&gt; &lt;em&gt;with Fabian Wüthrich&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Enabled diverse development options on Enzian platform by adding support for OpenCL&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Asynchronous execution of Timely Dataflow on heterogeneous architecture&lt;/strong&gt; &lt;em&gt;with Neil Stern&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved performance of Timely Dataflow stream processor by allowing it to execute asynchronously on FPGAs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Code generation for heterogeneous architectures&lt;/strong&gt; &lt;em&gt;with Stefan Gerber, Livio D&amp;rsquo;Agostini, Tobias Grosser and Lana Josipovic&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Applied static scheduling techniques to the CIRCT infrastructure to isolate code groups, corresponding to the stream processing operators.&lt;/li&gt;&#xA;&lt;li&gt;introduced high-level group operation, that is further translated to hardware module.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Parallel execution of Timely Dataflow on heterogeneous architecture&lt;/strong&gt; &lt;em&gt;with Georg Teufelberger&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CV</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;dl&gt;&#xA;&lt;dt&gt;&lt;strong&gt;ETH Zurich&lt;/strong&gt;&lt;/dt&gt;&#xA;&lt;dd&gt;Zurich, Switzerland&lt;/dd&gt;&#xA;&lt;dd&gt;09/2021 - 01/2023&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Thesis topic: Stream processing in a heterogeneous environment, Prof. Timothy Roscoe&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;New ways to use interconnects (PIO, DMA, cache coherent) available at the emerging modern heterogeneous FPGA-based platforms; co-designer of the message passing protocols on &lt;a href=&#34;https://enzian.systems/&#34;&gt;Enzian&lt;/a&gt; platform, achieved RPC execution over cache coherent interconnect in less than 1 microsecond for 128B data transfers &lt;a href=&#34;https://doi.org/10.48550/arXiv.2409.08141&#34;&gt;Publication&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Efficient execution of stream processors and redesigning their architecture for FPGA-based platforms; author of the new design for Timely Dataflow stream processor in Rust for heterogeneous computing; developed FPGA design for stream processing for different data ways of data communication (DMA, PCIe, CC), improved latency by up to 50% for different workloads for pointstamped progress tracking.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Heterogeneous stream processor</title>
